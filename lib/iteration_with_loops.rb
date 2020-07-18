@@ -6,7 +6,11 @@ def join_nested_strings(src)
   string_aoa = []
   
   while count < src[count] do
-    if src[count] == Integer 
-      src[count].
-    
+    if src[count] !== Integer 
+      string_aoa << src[count]
+    end
+    string_aoa.join
+    count += 1 
+  end
+  string_aoa
 end
