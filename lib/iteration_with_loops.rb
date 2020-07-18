@@ -8,7 +8,7 @@ def join_nested_strings(src)
   while count < src.count do
     inner_count = 0 
     while inner_count < src[count].count do
-      if src[count][inner_count].class == Sting
+      if src[count][inner_count].class == String
         string_aoa << src[count][inner_count]
       end
       inner_count += 1
